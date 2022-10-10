@@ -20,7 +20,7 @@ OOP Exercise Chapter 6
 """
 
 
-class Vehicle :
+class Vehicle:
     def __init__(self, brand, model, color,maxspeed,price):
         self.__brand = brand
         self.__model = model
@@ -51,6 +51,7 @@ class Vehicle :
     def display_Vehicle(self):
         print(f'Person brand:{self.__brand}' f'model:{self.__model}'f'colcr:{self.__colcr}'f'maxspeed:{self.__maxspeed}'f'price:{self.__price}')
 
+class object(Person):
     brand = input('Enter your ยี่ห้อรถ (brand) : ')
     model = input('Enter your รุ่นรถ (model) : ')
     color = input('Enter your สีรถ (color) : ')
